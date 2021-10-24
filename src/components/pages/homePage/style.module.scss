@@ -1,0 +1,18 @@
+@import "../../../_settings/_variables.css";
+
+.body {
+    padding: 20px;
+}
+
+.header {
+    align-self: center;
+}
+
+.productList {
+    flex-basis: 80vw;
+}
+
+.productDetails {
+    flex-basis: 15vw;
+    margin-left: 2px solid var(--grey-3);
+}

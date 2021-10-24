@@ -1,0 +1,7 @@
+.textAreaField {
+    flex: 1;
+
+    textarea {
+        width: -webkit-fill-available;
+    }
+}

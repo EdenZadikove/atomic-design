@@ -1,0 +1,10 @@
+@import '../../../../_settings/_variables.css';
+
+.error {
+    align-self: center;
+    font-size: 0.8rem;
+    line-height: 1.57;
+    letter-spacing: 0.008em;
+    font-weight: 400;
+    color: var(--error);
+}

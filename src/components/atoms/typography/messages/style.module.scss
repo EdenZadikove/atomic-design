@@ -1,0 +1,21 @@
+@import url("../../../_settings/_variables.css");
+
+.message {
+    font-size: 0.8rem;
+}
+.error {
+    color: var(--error);
+}
+
+.success {
+    font-size: 1rem;
+    color: var(--success)
+}
+
+.warning {
+    color: var(--atenttion)
+}
+
+.info {
+    color: var(--atenttion)
+}

@@ -1,0 +1,64 @@
+@import '../../../_settings/_variables.css';
+
+.button {
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  display: block;
+  font-size: 0.9em;
+  font-weight: 500;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: var(--grey-4);
+    cursor: not-allowed;
+  }
+}
+
+/* Size */
+.small {
+  padding: 0.5em 0.6em;
+}
+
+.medium {
+  padding: 0.6em 1em;
+}
+
+.large {
+  padding: 1.1em 1.3em;
+}
+
+/* Theme */
+.default {
+  color: white;
+  background: var(--brand);
+  border: 1px solid var(--brand);
+}
+
+.rounded {
+  color: var(--brand);
+  background-color: white;
+  border: 1px solid var(--brand);
+  transition: color 0.3s ease, background-color 0.3s ease;
+
+  &:hover {
+    color: white;
+    background: var(--brand);
+  }
+}
+
+.cancel {
+  color: white;
+  background: var(--grey-3);
+  border: 1px solid var(--grey-3);
+}
+
+/* Disabled */
+.disabled {
+  color: var(--grey-2);
+  background: color(var(--grey-4) tint(40%));
+  border-color: var(--grey-4);
+  cursor: default;
+}

@@ -1,0 +1,27 @@
+:root {
+    /*
+    * Colors
+    */
+    --brand: #51C0FF;
+    --grey-1: #474747;
+    --grey-2: #9A9A9A;
+    --grey-3: #919191;
+    --grey-4: #dadada;
+    --grey-5: #ededed;
+    --grey-6: #fafafa;
+    --color-type-body: var(--grey-1);
+    --success: #1fd0bf;
+    --atenttion: #2196f3;
+    --wait: #fff8dd;
+    --error: #d92525;
+    --blue-grey-1: #020036;
+    --blue-purple-4: #9a99af;
+    --divider: #F2F2F2;
+  
+    /*
+    * Fonts
+    */
+    --base-font-family: sans-serif;
+    --headers-font-family: serif;
+    --base-font-lineheight: 1.5em;
+  }
